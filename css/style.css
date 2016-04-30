@@ -14,12 +14,14 @@ body{
 	margin:0;
 	padding:0;
 	color:#212121;
+    font-size: 16px;
 	background-color:#EEEEEE;
 	font-family: 'Roboto', sans-serif;
 }
 a{
 	color:#e91e63; /*Change link color */
 	text-decoration:none;
+    font-weight: 600;
 }
 a:hover{
 	color:#c2185b; /*Change link color (on mouse over)*/
@@ -73,11 +75,13 @@ a:hover{
 	margin-bottom:10px;
 }
 #about_card>.tab>.title{
-	font-size:16px;
+	font-size:18.5px;
+    font-weight: 600;
 	color:#e91e63; /*Change title and title icon color (About Card)*/
 }
 .title i{
 	position:relative;
+    font-size: 22px;
 	left:-10px;
 }
 #about_card>.tab>.content{
@@ -90,12 +94,12 @@ a:hover{
 }
 #about_card .element .name{
 	color:#212121;
-	font-size:15px;
+	font-size:16.5px;
 	margin-bottom:3px;
 }
 #about_card .element .info{
 	color:#616161;
-	font-size:14px;
+	font-size:14.5px;
 }
 hr{
 	width:60%;
@@ -115,7 +119,8 @@ hr{
 	margin-bottom:8px;
 }
 #contact_card>.tab>.title{
-	font-size:16px;
+	font-size:18.5px;
+    font-weight: 600;
 	color:#e91e63; /*Change title and title icon color (Contact Card)*/
 }
 #contact_card>.tab>.content{
@@ -125,12 +130,17 @@ hr{
 #contact_card>.tab>.content>.contacts{
 	margin:0 20px 0 20px;
 	display:inline-block;
-	font-size:14px;
+	font-size:14.5px;
 	color:#212121;
+    
 }
 #contact_card a{
 	color:#616161;
 	text-decoration:none; /*Change link color (ONLY Contact Card)*/
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 #contact_card a:hover{
 	color:#9E9E9E; /*Change link color (on mouse over, ONLY Contact Card) */
@@ -143,7 +153,11 @@ hr{
 	text-align:center;
 	background-color:#e91e63; /*Change FAB background color */
 	border-radius:99px;
-	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 #fab i{
 	color:#fff;
@@ -151,6 +165,7 @@ hr{
 }
 #fab:hover{
 	background-color:#c2185b; /*Change FAB background color (on mouse over) */
+    box-shadow: 0 10px  8px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer{
