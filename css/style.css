@@ -42,6 +42,13 @@ a:hover{
 	border-radius: 3px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.14), 0 3px 6px rgba(0,0,0,0.20);
 	overflow:auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 8px 8px rgba(0,0,0,0.18);
 }
 #quick_card{
 	padding:25px;
