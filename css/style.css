@@ -20,16 +20,11 @@ body{
 }
 .card a, footer a{
 	color:#e91e63; /*Change link color */
-<<<<<<< HEAD
     font-weight: 600;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-=======
-	text-decoration:none;
-    font-weight: 600;
->>>>>>> origin/master
 }
 .card a:hover, footer a:hover{
 	color:#c2185b; /*Change link color (on mouse over)*/
@@ -178,12 +173,7 @@ body{
 	font-size:18px;
 }
 #fab:hover{
-<<<<<<< HEAD
 	box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 8px 8px rgba(0,0,0,0.18);
-=======
-	background-color:#c2185b; /*Change FAB background color (on mouse over) */
-    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 8px 8px rgba(0,0,0,0.18);
->>>>>>> origin/master
 }
 
 footer{
@@ -224,7 +214,6 @@ footer{
 		right:2%;
 	}
 }
-<<<<<<< HEAD
 
 .btn {
     position: relative;
@@ -246,5 +235,3 @@ footer{
 	color: rgba(0,0,0,0.26);
    cursor: not-allowed;
 }
-=======
->>>>>>> origin/master
