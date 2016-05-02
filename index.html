@@ -13,7 +13,6 @@
 	<title>Marcos Calvo Garc&iacute;a</title>
 	<link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="css/ripple.min.css" rel="stylesheet" type="text/css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<meta name="description" content="Your meta-description here">
@@ -72,36 +71,25 @@
 	<section class="tab">
 		<div class="title"><i class="fa fa-envelope"></i>Contact</div>
 		<div class="content">
-			<div class="contacts"><a class="btn btn-defaults ripple-anim" href="mailto:info@marcoscg.com"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
-			<div class="contacts"><a class="btn btn-defaults ripple-anim" href="https://plus.google.com/100706453241286888360" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
-			<div class="contacts"><a class="btn btn-defaults ripple-anim" href="http://www.marcoscg.com" target="_blank"><i class="fa fa-globe"></i>&nbsp; Website</a></div>
+			<div class="contacts"><a class="btn btn-defaults" href="mailto:info@marcoscg.com"><i class="fa fa-envelope"></i>&nbsp; E-Mail</a></div>
+			<div class="contacts"><a class="btn btn-defaults" href="https://plus.google.com/100706453241286888360" target="_blank"><i class="fa fa-google-plus"></i>&nbsp; Google+</a></div>
+			<div class="contacts"><a class="btn btn-defaults" href="http://www.marcoscg.com" target="_blank"><i class="fa fa-globe"></i>&nbsp; Website</a></div>
             
 			<!-- You can add more contacts! -->
 		</div>
 	</section>
 </div>
 <a href="mailto:info@marcoscg.com">
-	<div id="fab" class="ripple-anim">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
+	<div id="fab">&nbsp;<i class="fa fa-envelope"></i>&nbsp;</div>
 </a>
 </main>
 <footer>
     <a href="https://marcoscgdev.github.io" target="_blank">Marcos CG</a>
 </footer>
 </body>
-        <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
-		<script type="text/javascript" src="js/ripple.min.js"></script>
-		<script type="text/javascript">
-
-			$(function() {
-                
-                $.ripple('.ripple-anim', {
-                    opacity: 0.2,
-                    color: "#000",
-                    duration: 0.4,
-                    multi: false
-				});
-                
-			});
-
-		</script>
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="js/ripple.min.js"></script>
+    <script>
+        $("#fab, .btn").ripple();
+    </script>
 </html>
