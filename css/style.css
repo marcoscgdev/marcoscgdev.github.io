@@ -25,6 +25,7 @@ body{
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+    text-decoration:none;
 }
 .card a:hover, footer a:hover{
 	color:#c2185b; /*Change link color (on mouse over)*/
@@ -158,6 +159,7 @@ body{
 	position:fixed;
 	width:56px;
 	height:56px;
+    overflow: hidden;
 	line-height: 56px;
 	text-align:center;
 	background-color:#e91e63; /*Change FAB background color */
@@ -224,6 +226,7 @@ footer{
     font-weight: 600;
     cursor: pointer;
 	box-shadow: none !important;
+    padding: 8px;
 }
 
 .btn-defaults:hover {
@@ -234,4 +237,8 @@ footer{
 	background-color: transparent;
 	color: rgba(0,0,0,0.26);
    cursor: not-allowed;
+}
+
+.btn .legitRipple-ripple {
+    background-color: rgba(0, 0, 0, 0.2);
 }
