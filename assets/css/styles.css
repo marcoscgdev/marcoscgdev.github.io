@@ -1,1 +1,106 @@
-body,html{margin:0;padding:0}.background,.container{position:absolute;left:0;right:0}body{background:#e9e9e9;color:#757575}.background{top:0;bottom:50%;z-index:99}.container{top:20px;z-index:9999;background:#fafafa;border-radius:2px;padding:40px 20px 48px}.avatar{width:200px;margin-bottom:30px;margin-top:10px}.title{font-size:28px;font-weight:300;text-transform:uppercase;margin-top:0;margin-bottom:0;letter-spacing:0}.title span{color:#f57c00;font-weight:700}.description{font-size:16px;margin:0}.card-image{background-color:#000;width:100%;height:340px;position:relative;overflow:hidden;margin:0;padding:0}.card-image img{position:absolute!important;left:-100%!important;right:-100%!important;top:-100%!important;bottom:-100%!important;margin:auto!important;width:auto!important;height:auto!important;opacity:.4!important;filter:alpha(opacity=40)!important}.social-icons{font-size:20px;border-radius:2px}.fa{color:#fff}.skills{margin:0}@media screen and (max-width:600px){.skills{margin-top:30px;text-align:center}}@media screen and (min-width:720px){.container{top:50%;transform:translateY(-50%)}}
+body,
+html {
+    margin: 0;
+    padding: 0
+}
+
+.background,
+.container {
+    position: absolute;
+    left: 0;
+    right: 0
+}
+
+body {
+    background: #e9e9e9;
+    color: #757575
+}
+
+.background {
+    top: 0;
+    bottom: 50%;
+    z-index: 99
+}
+
+.container {
+    top: 20px;
+    z-index: 9999;
+    background: #fafafa;
+    border-radius: 2px;
+    padding: 40px 20px 48px
+}
+
+.avatar {
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 10px
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 0
+}
+
+.title span {
+    color: #f57c00;
+    font-weight: 700
+}
+
+.description {
+    font-size: 16px;
+    margin: 0
+}
+
+.card-image {
+    background-color: #000;
+    width: 100%;
+    height: 340px;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+}
+
+.card-image img {
+    position: absolute!important;
+    left: -100%!important;
+    right: -100%!important;
+    top: -100%!important;
+    bottom: -100%!important;
+    margin: auto!important;
+    width: auto!important;
+    height: auto!important;
+    opacity: .4!important;
+    filter: alpha(opacity=40)!important
+}
+
+.social-icons {
+    font-size: 20px;
+    border-radius: 2px
+}
+
+.fa {
+    color: #fff
+}
+
+.skills {
+    margin: 0
+}
+
+@media screen and (max-width:600px) {
+    .skills {
+        margin-top: 30px;
+        text-align: center
+    }
+}
+
+@media screen and (min-width:720px) {
+    .container {
+        toop: 50%;
+        toransform: translateY(-50%)
+    }
+}
