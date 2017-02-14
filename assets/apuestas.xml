@@ -16,4 +16,20 @@
   	  	  	<porcentaje>70</porcentaje>
   	  	  	<estado>Ganada</estado>
   	  	</apuesta>
+        <apuesta>
+  	  	  <equipo1>Betis</equipo1>
+  	  	  	<equipo2>Sevilla</equipo2>
+  	  	  	<pronostico>Gana Sevilla</pronostico>
+  	  	  	<cuota>1.36</cuota>
+  	  	  	<porcentaje>65</porcentaje>
+  	  	  	<estado>Pendiente</estado>
+  	  	</apuesta>
+  	  	<apuesta>
+  	  	  <equipo1>Real Madrid</equipo1>
+  	  	  	<equipo2>Eibar</equipo2>
+  	  	  	<pronostico>Gana Real Madrid</pronostico>
+  	  	  	<cuota>1.17</cuota>
+  	  	  	<porcentaje>70</porcentaje>
+  	  	  	<estado>Ganada</estado>
+  	  	</apuesta>
   </apuestas>
